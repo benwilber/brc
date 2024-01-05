@@ -3,7 +3,7 @@ Naive Rust implement of the [1 billion rows challenge](https://github.com/gunnar
 ### Create the measurements.txt file (13 GB)
 
 ```shell
-$ cargo run --release -- create_measurements
+$ cargo run --release -- create_measurements 1000000000
 ```
 
 ### Run it
